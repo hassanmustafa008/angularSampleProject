@@ -7,7 +7,7 @@ import {MessageService} from "./message.service";
 import {Hero} from './hero';
 
 const httpOptions = {
-  herders: new HttpHeaders({'Content-Type': 'application/json'})
+  headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
 
 @Injectable({
